@@ -1,0 +1,47 @@
+/* Cart.css */
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.cart-item img {
+    width: 100px; /* Tüm kitap resimleri için sabit genişlik */
+    height: 150px; /* Sabit yükseklik */
+    object-fit: cover; /* Resimlerin kırpılmasını engeller */
+    margin-right: 15px;
+    border-radius: 5px; /* Yuvarlak köşeler ekleyebilirsiniz */
+}
+
+.cart-item-details {
+    flex-grow: 1;
+}
+
+.cart-buttons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cart-total {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.checkout-button {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.checkout-button:hover {
+    background-color: #5848d9;
+}

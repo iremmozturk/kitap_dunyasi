@@ -1,0 +1,27 @@
+# Büyük dosyalar
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.mp4
+*.mov
+*.avi
+*.wmv
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Node modülleri (eğer bir Node.js projesi ise)
+node_modules/
+
+# Derleme çıktıları
+dist/
+build/
+*.log
+
+# IDE dosyaları
+.idea/
+.vscode/
+*.swp

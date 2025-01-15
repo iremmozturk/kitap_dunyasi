@@ -1,0 +1,7 @@
+.home-library-image {
+    width: 100%; /* Sayfa genişliğini kaplasın */
+    height: auto; /* Oranı korusun */
+    border-radius: 10px; /* Yuvarlatılmış köşeler */
+    margin-bottom: 20px; /* Alt boşluk */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölge efekti */
+}

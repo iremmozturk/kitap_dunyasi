@@ -1,0 +1,88 @@
+/* Genel Header Stili */
+.header {
+    display: flex;
+    flex-direction: column; /* Logoyu navigasyon üstüne yerleştirmek için */
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 2px solid #553c9a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px; /* Navigasyon ve logo arasına boşluk */
+}
+
+/* Sol Taraf: Library Resmi */
+.header-left {
+    position: absolute; /* Library.png solda sabit duracak */
+    top: 10px;
+    left: 10px;
+}
+
+.library-image {
+    height: 175px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Orta Kısım: Logo */
+.header-logo {
+    margin-bottom: 20px; /* Navigasyon ile logo arasında boşluk */
+}
+
+.logo-image {
+    height: 100px; /* Logonun boyutunu ayarlayın */
+    object-fit: contain;
+}
+
+/* Navigasyon Çubuğu */
+.header-center {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #553c9a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.nav-link:hover {
+    color: #ff5733;
+    border-bottom: 2px solid #ff5733;
+}
+
+/* Sağ Taraf: Kullanıcı Butonları */
+.header-buttons {
+    position: absolute; /* Butonlar sağ üstte sabit duracak */
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.header-button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header-button:hover {
+    background-color: #d4411e;
+}
+
+.cart-button {
+    background-color: #553c9a;
+}
+
+.cart-button:hover {
+    background-color: #432a7a;
+}
